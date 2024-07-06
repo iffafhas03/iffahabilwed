@@ -519,7 +519,7 @@ footer li {
 /* tablet */
 @media (max-width: 768px) {
     html {
-        font-size: 65%;
+        font-size: 70%;
     }
 
     .simply-countdown>.simply-section {
@@ -554,12 +554,13 @@ footer li {
 /*mobile phone*/
 @media (max-width: 576px) {
     html {
-        font-size: 60%;
+        font-size: 65%;
 
     }
 
     .home,
-    .rsvp {
+    .rsvp,
+    .ucapan {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
@@ -589,32 +590,34 @@ footer li {
         top: 31px;
 
     }
+
+    .home .couple {
+        margin-top: 30px;
+
+
+    }
+
+    .home .couple row {
+        padding-top: 10px;
+
+
+    }
+
+
 }
 
 @media (max-width: 400px) {
-    html {
-        font-size: 50%;
-
-    }
-
-    .home,
-    .rsvp {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
-
-
 
     .simply-countdown>.simply-section {
-        font-size: 5px;
-        width: 30px;
-        height: 30px;
+        font-size: 10px;
+        width: 60px;
+        height: 60px;
         padding: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
         float: left;
-        margin: 1px;
+        margin: 2px;
         background: var(--pink);
         box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
         border-radius: 50%;
