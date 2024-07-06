@@ -36,7 +36,7 @@ body {
 .hero {
     position: relative;
     min-height: 100vh;
-   
+
 }
 
 .hero h1,
@@ -70,7 +70,8 @@ body {
 }
 
 .hero h5 {
-    margin-top:5rem;
+    margin-top: 5rem;
+    color: #622A0F;
 }
 
 .hero a:hover {
