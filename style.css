@@ -471,7 +471,7 @@ footer li {
 /* Laptop */
 @media(max-width:992px) {
     html {
-        font-size: 80%;
+        font-size: 75%;
     }
 
     .simply-countdown>.simply-section {
@@ -554,7 +554,7 @@ footer li {
 /*mobile phone*/
 @media (max-width: 576px) {
     html {
-        font-size: 80%;
+        font-size: 65%;
 
     }
 
