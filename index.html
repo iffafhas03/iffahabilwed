@@ -62,7 +62,9 @@
       </main>
     </section>
 
-    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+    <nav
+      class="navbar navbar-expand-md navbar-expand-sm bg-transparent sticky-top mynavbar"
+    >
       <div class="container">
         <a class="navbar-brand" href="#">I&H</a>
         <button
@@ -505,7 +507,6 @@
           song.pause();
           audioIcon.classList.add("bi-disc");
           audioIcon.classList.remove("bi-pause-circle");
-          
         } else {
           song.play();
           audioIcon.classList.add("bi-pause-circle");
@@ -561,6 +562,26 @@
       namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ",");
 
       document.querySelector("#nama").value = nama;
+    </script>
+    <script>
+      // Disable right-click context menu
+      document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+      });
+
+      // Disable specific key combinations
+      /*
+      document.addEventListener("keydown", function (event) {
+        // Disable F12 (Developer Tools), Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U (View Source)
+        if (
+          event.key === "F12" ||
+          (event.ctrlKey && event.shiftKey && event.key === "I") ||
+          (event.ctrlKey && event.shiftKey && event.key === "J") ||
+          (event.ctrlKey && event.key === "U")
+        ) {
+          event.preventDefault();
+        } 
+      }); */
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
